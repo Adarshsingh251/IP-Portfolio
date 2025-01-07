@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+    width:100%;
+    background-color: blueviolet;
+}
+:root{
+    --primary-color: purple;
+}
+.main_div{
+    background-color: var(--primary-color);
+    height:70px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav_right_div ul{
+    display: flex;
+    list-style: none;
+    gap:26px;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+#nav_right_div ul li a{
+        text-decoration: none;
+        color:white;
+        font-weight: 500;
+}
+#nav_right_div ul li a:hover{
+    color: rgb(123, 123, 182);
+    font-size:1.29rem;
+}
+
+#nav_left_div{
+    color:bisque;
+    font-size:2.2rem;
+    font-family: "Amaranth", serif;
+}
+.main_ka_div{
+    height:400px;
+    display: flex;
+    justify-content: space-around;
+    margin:35px auto;
+    /* background-color: red; */
+}
+#left_main_div span{
+    font-size:3em;
+    color:aqua;
+}
+#left_main_div{
+    width:430px;
+    margin-top:7%;
+    padding-top:20px;
+    /* background-color: red; */
+    /* background-color: pink; */
+}
+
+#left_main_div h1{
+    font-size:3em;
+}
+
+#right_main_div img {
+    height: 300px;
+    margin-top: 17%; 
+    border-radius:20px;
+    transition: transform 2s ease-in-out 0s;
+}
+ #right_main_div img:hover{
+    transform: scale(1.3);
+ }
+/* footer ka code hai*/
+#footer{
+    background-color: rgb(117, 117, 117);
+    color:rgb(230, 220, 220);
+    padding:7px;
+    font-size:27px;
+    margin-bottom:14px;
+    text-align:center;
+}
+
+#proj{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    color:rgb(26, 179, 26);
+}
+
+.project-container{
+    margin-top:20px;
+    font-size: 1.8rem;
+    display:flex;
+    justify-content: space-around;
+}
+.project-container a{
+    background-color: blue;
+    border:2px solid black;
+    padding:10px;
+    color:aqua;
+    text-decoration: none;
+    border-radius: 9px;
+}
+.project-container a:hover{
+    color:aquamarine;
+}
+
+/* contact page ka code hai */
+.contact-info {
+    font-size: 1.2rem;
+  }
+  
+.contact-info p {
+    margin-bottom: 1rem;
+    margin-left:30px;
+    text-align: center;
+  }
+
+.container h1{
+   text-align: center;
+   margin-bottom: 100px;
+}
+  

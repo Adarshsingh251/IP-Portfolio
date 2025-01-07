@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    background: linear-gradient(30deg,pink,lightblue,rgb(135, 135, 222),rgb(228, 228, 79),orange);
+}
